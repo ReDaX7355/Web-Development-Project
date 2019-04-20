@@ -468,12 +468,11 @@ header .main-header .content .buttons-h a:active{
 	margin: 100px auto 0;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap:30px;
+	justify-content: center;
 }
 
 .portfolio .item{
 	position: relative;
-	alignment-baseline: center;
-	max-width: 300px;
 	min-height: 300px;
 	background-color: #eee;
 	text-align: center;
